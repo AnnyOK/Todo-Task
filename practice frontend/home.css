@@ -1,0 +1,55 @@
+body{
+  margin:0;
+  padding: 0;  
+}
+.container-1{
+  display:flex;
+  height:100vh;
+  background-color: gray;
+}
+
+.banner{
+  background-color:aqua;
+  padding:25px;
+  margin: 10px;
+  align-content:space-between;
+}
+
+.create-todo{
+  width
+  background-color: aquamarine;
+  position:center;
+  align-items:center;
+  display: block;
+  padding: 300px,
+
+}
+.create-todo input{
+  width: 350px;
+}
+.task{
+  background-color: rgba(156, 156, 154, 0.582);
+  color: aliceblue;
+  border-radius: 0px;
+}
+.search{
+  background: black;
+  color: gray;
+  border: 2px solid white;
+  border-bottom: 6px solid white;
+  border-radius: 0px;
+  border-bottom-right-radius: 15px;
+}
+
+
+button{
+  padding:10px;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+input{
+  width: 80px;
+}
+.textbox{
+  width: 600px;
+}
