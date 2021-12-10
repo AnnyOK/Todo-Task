@@ -10,13 +10,24 @@
   <body>
     <div class="container-1">
       <div class="banner">
-        <input class="search" type="search" name="search" placeholder="search" label="search"/>
+        <div>
+          <input
+            type="search"
+            id="mySearch"
+            name="q"
+            placeholder="Search the site..."
+            aria-label="Search through site content"
+          />
+          <button>Search</button>
+        </div>
+
         <button class="task">Assinged to me.</button>
         <button class="task">task</button>
       </div>
       <div class="create-todo">
-        <input type="text" placeholder="create to do">
+        <input type="text" placeholder="create to do" />
       </div>
     </div>
+    <script src="page.js"></script>
   </body>
 </html>
