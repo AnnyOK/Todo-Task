@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<div id="myDIV" class="header">
-  <h2 >My To Do List</h2>
-  <input type="text" id="myInput" placeholder="Title...">
-  <span onclick="newElement()" class="addBtn">Add</span>
-</div>
-
-<ul id="myUL">
-  <li>Hit the gym</li>
-  <li class="checked">Pay bills</li>
-  <li>Meet George</li>
-  <li>Buy eggs</li>
-  <li>Read a book</li>
-  <li>Organize office</li>
-</ul>
-
-<script src ="app.js"></script>
-
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="icon" href="Images/Capture1.PNG" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <img src="./Images/Capture1.PNG" alt="logo" class="icon" id="menu" />
+        <div class="r">
+          <div class="search">
+            <input type="search" placeholder="search" class="" id="" />
+          </div>
+          <div class="button">
+            <input type="button" value="Assign to me" />
+            <input type="button" value="Tasks" />
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <input type="text" placeholder="Create ToDo" autofocus />
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
 </html>
