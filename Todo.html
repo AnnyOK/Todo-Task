@@ -9,21 +9,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="sidebar">
-        <img src="./Images/Capture1.PNG" alt="logo" class="icon" id="menu" />
-        <div class="r">
-          <div class="search">
-            <input type="search" placeholder="search" class="" id="" />
-          </div>
-          <div class="button">
-            <input type="button" value="Assign to me" />
-            <input type="button" value="Tasks" />
-          </div>
-        </div>
+    <div class="maincontainer">
+      <div class="leftcolumn">
+        <input type="search" placeholder="search" class="search" id="" />
+        <button type="button" class="btn">Assign to Me</button>
+        <button type="button" class="btn">Tasks</button>
       </div>
       <div class="content">
-        <input type="text" placeholder="Create ToDo" autofocus />
+        <input
+          type="text"
+          placeholder="Create ToDo"
+          autofocus
+          class="create-todo"
+        />
       </div>
     </div>
     <script src="./app.js"></script>
