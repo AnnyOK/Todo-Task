@@ -12,11 +12,20 @@
   background-color: #3d3b3b;
 }
 .content {
+  font-size: 1rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 70%;
+
   background-color: rgb(27, 26, 26);
+}
+p{
+  color: whitesmoke;
+  display: block;
+  background-color: rgb(139, 136, 139);
+  border-radius: 3px;
 }
 .btn {
   margin: 15px 0;

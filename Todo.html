@@ -12,8 +12,8 @@
     <div class="maincontainer">
       <div class="leftcolumn">
         <input type="search" placeholder="search" class="search" id="" />
-        <button type="button" class="btn">Assign to Me</button>
-        <button type="button" class="btn">Tasks</button>
+        <button type="button" class="btn" id='assign'>Assign to Me</button>
+        <button type="button" class="btn" id="task">Tasks</button>
       </div>
       <div class="content">
         <input
@@ -21,9 +21,11 @@
           placeholder="Create ToDo"
           autofocus
           class="create-todo"
+          id="create_todo"
         />
+        <div id="todos"></div>
       </div>
     </div>
-    <script src="./app.js"></script>
+    <script src="/app.js"></script>
   </body>
 </html>
